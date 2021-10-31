@@ -16,7 +16,7 @@ from userbot import ALIVE_NAME, Lastupdate
 from . import dcdef
 from telethon.tl.types import ChannelParticipantsAdmins
 # 🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "DARK COBRA"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "TSF"
 
 # Thanks to Sipak bro and Aryan.. 
 # animation Idea by @ItzSipak && @Hell boy_pikachu
