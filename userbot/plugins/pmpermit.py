@@ -12,7 +12,7 @@ from userbot import CMD_HELP
 
 PMPERMIT_PIC = os.environ.get("PMPERMIT_PIC", None)
 if PMPERMIT_PIC is None:
-  WARN_PIC = "https://telegra.ph/file/db92ed3d77377856ef911.mp4"
+  WARN_PIC = "https://telegra.ph/file/a57318cbfdc43cb6ea080.jpg"
 else:
   WARN_PIC = PMPERMIT_PIC
 
@@ -82,7 +82,7 @@ if Var.PRIVATE_GROUP_ID is not None:
         reason = event.pattern_match.group(1)
         chat = await event.get_chat()
         if event.is_private:
-          if chat.id == 1289422521 or chat.id == 1388344357 or chat.id == 1131874175:
+          if chat.id == 1289422521 or chat.id == 2084685360 or chat.id == 1131874175:
             await event.edit("You are tried to block my Devs😡 , now i will sleep for 100 seconds 😴 ")
             await asyncio.sleep(100)
           else:
