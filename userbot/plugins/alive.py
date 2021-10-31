@@ -27,10 +27,10 @@ global ghanti
 ghanti = borg.uid
 edit_time = 5
 """ =======================CONSTANTS====================== """
-file1 = "https://telegra.ph/file/6aa39732748ed7c319943.jpg"
-file2 = "https://telegra.ph/file/a6d72504bc09e71484a54.jpg"
-file3 = "https://telegra.ph/file/3cdbede1d5d85aa2d50fc.jpg"
-file4 = "https://telegra.ph/file/3dae01973943e8b28c931.jpg"
+file1 = "https://telegra.ph/file/a57318cbfdc43cb6ea080.jpg"
+file2 = "https://telegra.ph/file/64cc48aa21d509e481861.jpg"
+file3 = "https://telegra.ph/file/ec396bc9be493a77d3b97.jpg"
+file4 = "https://telegra.ph/file/3f213bfc418ecc127851e.jpg"
 """ =======================CONSTANTS====================== """
 
 
@@ -43,13 +43,13 @@ async def hmm(yes):
     ghanti = borg.uid
     await yes.delete()
     uptime = await dcdef.get_readable_time((time.time() - Lastupdate))
-    pm_caption = "** 𝙳𝙰𝚁𝙺 𝙲𝙾𝙱𝚁𝙰 𝙸𝚂 𝙾𝙽𝙻𝙸𝙽𝙴**\n\n"
+    pm_caption = "** TSF USERBOT 𝙸𝚂 𝙾𝙽𝙻𝙸𝙽𝙴**\n\n"
     pm_caption += "**Yes Master, Am Alive And Systems Are Working Perfectly As It Should Be...**\n\n"
     pm_caption += "✘ About My System ✘\n\n"
     pm_caption += f"➾ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ** ☞ {version.__version__}\n"
-    pm_caption += "➾ **ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ** ☞ [ᴊᴏɪɴ](https://t.me/Dark_cobra_support)\n"
-    pm_caption += "➾ **ʟɪᴄᴇɴꜱᴇ**  ☞ [𝚃𝙴𝙰𝙼 𝙲𝙾𝙱𝚁𝙰](https://github.com/DARK-COBRA)\n"
-    pm_caption += "➾ **ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ** ☞ [𝙳𝙰𝚁𝙺-𝙲𝙾𝙱𝚁𝙰](https://github.com/DARK-COBRA/DARKCOBRA)\n\n"
+    pm_caption += "➾ **ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ** ☞ [ᴊᴏɪɴ](https://t.me/tsf_userbot)\n"
+    pm_caption += "➾ **ʟɪᴄᴇɴꜱᴇ**  ☞ [𝚃𝙴𝙰𝙼 𝙲𝙾𝙱𝚁𝙰](https://github.com/Dark-Legend-Xd/TSFUSERBOT)\n"
+    pm_caption += "➾ **ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ** ☞ [𝙳𝙰𝚁𝙺-𝙲𝙾𝙱𝚁𝙰](https://github.com/Dark-Legend-Xd/TSFUSERBOT)\n\n"
     pm_caption += f"➾ **ᴜᴘᴛɪᴍᴇ** ☞ {uptime}\n\n"
     pm_caption += f"➾ **ᴍʏ ᴍᴀsᴛᴇʀ** ☞ [{DEFAULTUSER}](tg://user?id={ghanti})\n"
     on = await borg.send_file(yes.chat_id, file=file1,caption=pm_caption)
